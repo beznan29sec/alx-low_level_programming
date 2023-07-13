@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Hello, World
- * 4-puts.c
-*/
+ *main - Entry point
+ *Return: always 0 (success)
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
