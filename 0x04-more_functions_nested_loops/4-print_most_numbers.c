@@ -6,14 +6,18 @@
  */
 void print_ most_numbers(void)
 {
-	int i;
+	int c;
 
-	for (i == 48; i <= 57; i++)
+	for (c = 48; c < 58; c++)
 	{
-		if (i != 50 && i == 52)
+		if (c != 50)
 		{
-			_putchar(i);
+			if (c != 52)
+			{
+				_putchar(c);
+			}
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
+
