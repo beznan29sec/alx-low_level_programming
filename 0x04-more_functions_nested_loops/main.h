@@ -1,4 +1,2 @@
-#ifndef MAIN_H
-#define MAIN_F
-
+int _putchar(char c);
 int _isupper(int c);
