@@ -1,4 +1,4 @@
-#include "variadic_functions"
+#include "variadic_functions.h"
 /**
  * sum_them_all - Returns the sum of all its paramters.
  * @n: The number of paramters passed to the function.
@@ -11,7 +11,8 @@
 int sum_them_all(const unsigned int n, ...)
 {
 va_list nums;
-
+if(n == 0)
+return (0);
 va_start(nums, n);
 unsigned int i;
 unsigned int sum = 0;
