@@ -5,13 +5,13 @@
  * struct list_s - linked list
  * @str: string
  * @len: length of the string
- * @link: points to the next node
+ * @next: points to the next node
  */
 typedef struct list_s
 {
 	char *str;
 	int len;
-	struct list_s *link;
+	struct list_s *next;
 } list_t;
 
 size_t print_list(const list_t *h);
