@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * binary_to_unit -  a function that converts binary number to unsigned int
+ * binary_to_uint -  a function that converts binary number to unsigned int
  * @b: string of binary number
  * Return: the converted number
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int n = 0;
 	int i;

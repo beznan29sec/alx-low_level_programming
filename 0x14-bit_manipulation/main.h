@@ -4,5 +4,5 @@
 #include <stdio.h>
 
 int _putchar(char c);
-unsigned int binary_to_unit(const char *b);
+unsigned int binary_to_uint(const char *b);
 #endif
