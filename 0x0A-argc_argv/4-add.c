@@ -31,7 +31,7 @@ int check_num(char *str)
 int main(int argc, char *argv[])
 {
 	int c;
-	int str;
+	int str_int;
 	int s = 0;
 
 	c = 1;
@@ -39,8 +39,8 @@ int main(int argc, char *argv[])
 	{
 		if (check_num(argv[c]))
 		{
-			str = atoi(argv[c]);
-			s += str;
+			str_int = atoi(argv[c]);
+			s += str_int;
 		}
 		else
 		{
