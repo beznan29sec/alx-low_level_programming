@@ -14,7 +14,7 @@ int check_num(char *str)
 	c = 0;
 	while (c < strlen(str))
 	{
-		if (!isdigit(str[ct]))
+		if (!isdigit(str[c]))
 		{
 			return (0);
 		}
