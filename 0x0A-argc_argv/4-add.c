@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 			printf("Error\n");
 			return (1);
 		}
-			count++;
+			c++;
 	}
 
 	printf("%d\n", s);
